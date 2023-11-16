@@ -34,3 +34,19 @@ output "PRIVATE_SUBNET_IDS" {
 output "PUBLIC_SUBNET_IDS" {
     value = module.vpc.PUBLIC_SUBNET_IDS
 }
+
+output "PRIVATE_HOSTED_ZONE_ID" {
+  value = var.PRIVATE_HOSTED_ZONE_ID
+}
+
+output "PRIVATE_HOSTED_ZONE_NAME" {
+  value = var.PRIVATE_HOSTED_ZONE_NAME
+}
+
+output "PUBLIC_HOSTED_ZONE_ID" {
+  value = var.PUBLIC_HOSTED_ZONE_ID
+}
+
+output "PUBLIC_HOSTED_ZONE_NAME" {
+  value = var.PUBLIC_HOSTED_ZONE_NAME
+}
